@@ -4,7 +4,7 @@
     "version": "2.4.0",
     "private": true,
     "scripts": {
-        "start": "node scripts/start.js",
+        "start": "node  scripts/start.js",
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
         "check:links": "bash ./___scripts___/link-check/checklinks.sh",
