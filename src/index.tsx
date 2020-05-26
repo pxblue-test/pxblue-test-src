@@ -43,5 +43,8 @@ serviceWorker.unregister();
 
 // If landed from the 404 page, use the new state to update current URL
 window.addEventListener('popstate', (e) => {
-    if (e.state.newURL) window.location.replace(e.state.newURL);
+    if (e.state.newURL) {
+        window.location.replace(e.state.newURL);
+        console.log('changed location'); // eslint-disable-line no-console
+    }
 });

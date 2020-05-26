@@ -11,7 +11,7 @@
 /cypress/videos
 
 # production
-/build
+# /build
 package-lock.json
 
 # IDE - VSCode
